@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7个让学习快10倍的AI提示词 - 免费领取</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',PingFang SC,sans-serif;background:#fbfaf8;color:#1a1a1a;line-height:1.8;overflow-x:hidden}
+nav{position:fixed;top:0;width:100%;background:rgba(251,250,248,0.8);backdrop-filter:blur(16px);border-bottom:1px solid #eee;z-index:10;padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
+nav .logo{font-weight:800;letter-spacing:-0.5px}
+nav .hint{font-size:0.8rem;color:#999}
+.hero{padding:140px 24px 60px;text-align:center;max-width:800px;margin:0 auto}
+.hero h1{font-size:3.4rem;font-weight:900;line-height:0.95;letter-spacing:-2px;margin-bottom:20px}
+.hero h1 span{background:linear-gradient(90deg,#5b5bff,#ff3d8a);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{color:#666;font-size:1.1rem;max-width:560px;margin:0 auto 28px}
+.hero .subtle{background:#1a1a1a;color:#fff;display:inline-block;padding:8px 18px;border-radius:30px;font-size:0.85rem}
+.container{max-width:860px;margin:0 auto;padding:0 24px 100px}
+.prompt-card{background:#fff;border:1px solid #eee;border-radius:24px;padding:32px;margin-bottom:20px;box-shadow:0 8px 30px rgba(0,0,0,0.04);transform:translateY(20px);opacity:0;animation:fadeUp 0.6s forwards}
+.prompt-card:nth-child(1){animation-delay:0.1s}.prompt-card:nth-child(2){animation-delay:0.2s}.prompt-card:nth-child(3){animation-delay:0.3s}.prompt-card:nth-child(4){animation-delay:0.4s}.prompt-card:nth-child(5){animation-delay:0.5s}.prompt-card:nth-child(6){animation-delay:0.6s}.prompt-card:nth-child(7){animation-delay:0.7s}
+[@keyframes](https://www.threads.net/@keyframes) fadeUp{to{transform:translateY(0);opacity:1}}
+[@keyframes](https://www.threads.net/@keyframes) float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.prompt-card:hover{box-shadow:0 16px 40px rgba(0,0,0,0.08);transform:translateY(-2px);transition:0.3s}
+.prompt-card .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.num{font-weight:900;font-size:0.9rem;color:#5b5bff;background:#f0f0ff;padding:4px 10px;border-radius:20px}
+.prompt-card h3{font-size:1.25rem;font-weight:800;margin-bottom:6px}
+.prompt-card .desc{color:#888;font-size:0.9rem;margin-bottom:16px}
+.code{background:#f7f7f5;border:1px dashed #ddd;border-radius:12px;padding:16px;font-family:monospace;font-size:0.88rem;color:#333;white-space:pre-wrap;line-height:1.6}
+.btn-copy{margin-top:14px;border:1px solid #1a1a1a;background:#fff;padding:8px 18px;border-radius:30px;font-weight:700;cursor:pointer;transition:0.2s}
+.btn-copy:hover{background:#1a1a1a;color:#fff}
+.btn-copy.copied{background:#1a1a1a;color:#fff}
+.about{margin-top:100px;border-top:1px solid #eee;padding-top:60px;display:grid;grid-template-columns:80px 1fr;gap:24px;align-items:start;opacity:0;transform:translateY(20px);animation:fadeUp 0.6s 0.9s forwards}
+.avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,#5b5bff,#ff3d8a);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:1.6rem;animation:float 3s infinite}
+.about h4{font-size:1.1rem;font-weight:800;margin-bottom:4px}
+.about .role{font-size:0.85rem;color:#888;margin-bottom:12px}
+.about p{font-size:0.92rem;color:#555;max-width:600px}
+.about .tags{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+.about .tags span{background:#f3f3f0;padding:6px 12px;border-radius:20px;font-size:0.8rem;color:#666}
+.about .cta-row{margin-top:20px;display:flex;gap:12px;flex-wrap:wrap}
+.wa{ background:#1a1a1a;color:#fff;padding:10px 22px;border-radius:30px;text-decoration:none;font-weight:700;font-size:0.9rem;display:inline-block;transition:0.2s}
+.wa:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,0.2)}
+.link{padding:10px 22px;border-radius:30px;border:1px solid #ddd;text-decoration:none;color:#1a1a1a;font-weight:600;font-size:0.9rem}
+.footer{text-align:center;padding:40px 24px;color:#bbb;font-size:0.8rem}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">AI 学习实验室</div>
+<div class="hint">免费福利 · 无需注册</div>
+</nav>
+
+<div class="hero">
+<h1>学会如何<br><span>让AI教你学习</span></h1>
+<p>我把最近测试最有效的 7 个 Gemini 学习提示词整理好了。<br>直接复制就能用，帮你把任何新知识学得更快、记得更牢。</p>
+<div class="subtle">👇 往下滚动领取</div>
+</div>
+
+<div class="container">
+
+<div class="prompt-card">
+<div class="top"><span class="num">01</span><span style="font-size:0.8rem;color:#bbb">Feynman</span></div>
+<h3>用小孩都能懂的方式学会</h3>
+<p class="desc">真懂的人，能把复杂讲简单。</p>
+<div class="code" id="c1">你是我的学习伙伴。我想学 [学习主题]。
+请用讲故事的方式教我，像教10岁小孩一样，不能用专业词。
+讲完后，指出3个容易误解的地方，用一个日常比喻帮我记住，最后让我复述一遍，你来纠正。</div>
+<button class="btn-copy" onclick="copyIt('c1',this)">复制提示词</button>
+</div>
+
+<div class="prompt-card">
+<div class="top"><span class="num">02</span><span style="font-size:0.8rem;color:#bbb">First Principles</span></div>
+<h3>从本质开始拆，不背结论</h3>
+<p class="desc">挖到最底层，理解才不会忘。</p>
+<div class="code" id="c2">帮我用第一性原理拆解 [核心概念]。
+从最基本的定义和假设开始，一步步推导出它。
+要包含：最小组成单元、它们如何组合、2个生活例子、3个常见误区。</div>
+<button class="btn-copy" onclick="copyIt('c2',this)">复制提示词</button>
+</div>
+
+<div class="prompt-card">
+<div class="top"><span class="num">03</span><span style="font-size:0.8rem;color:#bbb">Active Recall</span></div>
+<h3>越费劲回忆，记得越牢</h3>
+<p class="desc">不是多看，而是多考自己。</p>
+<div class="code" id="c3">你是记忆教练，主题是 [学习主题]。
+把内容分成5小块，每讲完一块就提问我，从选择题到简答题，难度慢慢提高，并给我一个记忆口诀。</div>
+<button class="btn-copy" onclick="copyIt('c3',this)">复制提示词</button>
+</div>
+
+<div class="prompt-card">
+<div class="top"><span class="num">04</span><span style="font-size:0.8rem;color:#bbb">Spaced</span></div>
+<h3>在快要忘记时复习</h3>
+<p class="desc">对抗遗忘曲线的科学节奏。</p>
+<div class="code" id="c4">为 [学习主题] 做一个复习打卡表。
+列出所有关键点，并安排在第1天、第3天、第7天、第15天、第30天复习，告诉我每次该怎么复习最高效。</div>
+<button class="btn-copy" onclick="copyIt('c4',this)">复制提示词</button>
+</div>
+
+<div class="prompt-card">
+<div class="top"><span class="num">05</span><span style="font-size:0.8rem;color:#bbb">Map</span></div>
+<h3>把一本书压成一张图</h3>
+<p class="desc">只留骨架，去掉水分。</p>
+<div class="code" id="c5">把 [学习材料] 整理成一页纸知识地图。
+包含：3个核心原理、它们的逻辑链条、一句话总结、3个能马上用的行动。</div>
+<button class="btn-copy" onclick="copyIt('c5',this)">复制提示词</button>
+</div>
+
+<div class="prompt-card">
+<div class="top"><span class="num">06</span><span style="font-size:0.8rem;color:#bbb">Roadmap</span></div>
+<h3>给你一张从0到专家的藏宝图</h3>
+<p class="desc">不迷路的学习路径。</p>
+<div class="code" id="c6">你是课程设计师，请为 [学习主题] 设计从零到精通的4阶段路径：入门、进阶、精通、专家。每阶段写明学什么、用什么资源、做什么小项目、如何判断达标。</div>
+<button class="btn-copy" onclick="copyIt('c6',this)">复制提示词</button>
+</div>
+
+<div class="prompt-card">
+<div class="top"><span class="num">07</span><span style="font-size:0.8rem;color:#bbb">Diagnose</span></div>
+<h3>找到漏洞，比多学10小时管用</h3>
+<p class="desc">精准补弱。</p>
+<div class="code" id="c7">请对我做 [学习主题] 的弱点扫描。
+问我5个越来越难的问题，根据我的回答找出盲区，分析原因，并给我一个7天的补强计划。</div>
+<button class="btn-copy" onclick="copyIt('c7',this)">复制提示词</button>
+</div>
+
+<div class="about">
+<div class="avatar">颜</div>
+<div>
+<h4>颜浚骅 Gan Chun Wah · 马六甲</h4>
+<div class="role">AI生产力培训师 | 专注企业与个人效率提升</div>
+<p>平时主要帮企业和个人做AI培训，不教复杂理论，只教能马上用在工作上的东西。如果你也想系统学习，欢迎聊聊。</p>
+<div class="tags">
+<span>AI for Productivity</span>
+<span>社媒内容生成 视频/图片/音乐</span>
+<span>Vibe Coding 无需IT背景做小程序</span>
+<span>AI Agentic / Codex 虚拟员工</span>
+<span>企业内训</span>
+<span>小班制</span>
+<span>1对1 Mentoring</span>
+</div>
+<div class="cta-row">
+<a class="wa" href="https://wa.me/60166200728?text=你好颜老师，我在你的AI学习福利页看到，想咨询AI培训" target="_blank">找我聊聊AI咨询</a>
+<a class="link" href="https://wa.me/60166200728?text=你好颜老师" target="_blank">+60 16-620 0728</a>
+</div>
+<p style="margin-top:12px;font-size:0.78rem;color:#aaa">点击直接跳WhatsApp，无推销，纯交流</p>
+</div>
+</div>
+
+</div>
+
+<div class="footer">免费分享 · 转发给需要的朋友 · © Gan Chun Wah</div>
+
+<script>
+function copyIt(id,btn){
+  const text=document.getElementById(id).innerText;
+  navigator.clipboard.writeText(text).then(()=>{
+    const old=btn.innerText;
+    btn.innerText='已复制 ✓';
+    btn.classList.add('copied');
+    setTimeout(()=>{btn.innerText=old;btn.classList.remove('copied')},1800);
+  });
+}
+</script>
+</body>
+</html>
